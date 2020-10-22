@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="test.ActitimeCreateWork">
+        <methods>
+          <include name="work"/>
+        </methods>
+      </class> <!-- test.ActitimeCreateWork -->
+      <class name="test.ActiTimeLogin">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- test.ActiTimeLogin -->
+      <class name="test.ActitimeCreateCustomer">
+        <methods>
+          <include name="customer"/>
+        </methods>
+      </class> <!-- test.ActitimeCreateCustomer -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
